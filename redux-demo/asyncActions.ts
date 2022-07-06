@@ -1,6 +1,6 @@
 import fetch from 'node-fetch';
-import { createStore, applyMiddleware, AnyAction, Dispatch } from 'redux';
-import thunkMiddleware, { ThunkAction, ThunkDispatch } from 'redux-thunk';
+import { createStore, applyMiddleware, Dispatch } from 'redux';
+import thunkMiddleware from 'redux-thunk';
 
 const url = 'https://jsonplaceholder.typicode.com/users';
 
